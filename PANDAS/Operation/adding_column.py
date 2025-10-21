@@ -22,3 +22,7 @@ df.drop(columns =["EMPLOYE_ID"], inplace=True )
 print("\nDataFrame after removing the EMPLOYE_ID column:")
 print(df)
 
+#-------------------------------------------------------------------------
+# iloc and loc to access columns in DataFrame
+print(df.iloc[1:3])
+print(df.loc[1:3, ['NAME', 'CITY']])
