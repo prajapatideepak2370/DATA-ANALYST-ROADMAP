@@ -26,3 +26,11 @@ print(df)
 # iloc and loc to access columns in DataFrame
 print(df.iloc[1:3])
 print(df.loc[1:3, ['NAME', 'CITY']])
+
+#---Broadcasting a column value to all rows
+df["SALARY"] += 1000
+print(df.SALARY)
+df["SALARY"].unique() # To get unique values in the SALARY column
+df["PROFESSION"].value_counts() # To get count of unique values in the PROFESSION column
+df["PROMOTED_SALARY"] = df["SALARY"]*10
+print(df)
