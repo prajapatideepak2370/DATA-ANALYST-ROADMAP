@@ -1,0 +1,14 @@
+# Core
+numpy
+pandas
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+
+# Notebooks & interactive
+jupyterlab
+notebook
