@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+# Bivariate Scatter Plot means to show relationship between two variables (Numeric- Numeric)
 studies_hr = [1,2,3,4,5]
 exam_scored = [56,75,79,86,99]
 
