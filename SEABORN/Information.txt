@@ -1,0 +1,23 @@
+"CONTEXT" ON DIFFERENT PLOTS USING SEABORN LIBRARY:-
+1.} Paper:- Smallest element- ideal for printing academic papers
+2.} Notebook:- Medium element- ideal for Jupyter Notebooks
+3.} Talk:- Large element- ideal for presentations or slideshows
+4.} Poster:- Extra large element- ideal for large posters and displays 
+
+PALETTES IN SEABORN LIBRARY:-
+1.} Deep:- Dark colors
+2.} Muted:- Soft colors
+3.} Bright:- Vivid colors
+4.} Pastel:- Light colors
+5.} Dark:- Dark background colors
+6.} Colorblind:- Colorblind friendly colors
+7.} Set1:- Bright colors suitable for categorical data
+8.} Set2:- Soft colors suitable for categorical data    
+9.} Set3:- A larger set of soft colors suitable for categorical data
+10.} Accent:- A set of colors that are visually distinct and work well together
+
+PALETTES Types:- 
+1.} Qualitative:- Used for categorical data where the order of categories does not matter. ex- Set1, Set2, Set3, Accent
+2.} Sequential:- Used for numerical data that ranges from low to high values. ex- Blues, Greens, Oranges
+3.} Diverging:- Used for numerical data that has a meaningful midpoint, such as zero. ex- RdBu, PiYG, BrBG
+

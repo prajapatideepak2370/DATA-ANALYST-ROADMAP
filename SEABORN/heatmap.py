@@ -6,8 +6,8 @@ import numpy as np
 arr= np.linspace(1,10,20).reshape(4,5)
 
 
-# sns.heatmap(arr, annot=True, cmap='coolwarm')
-# plt.show()
+sns.heatmap(arr, annot=True, cmap='coolwarm')
+plt.show()
 
 df = pd.read_csv(r"SEABORN\anagrams.csv")
 
