@@ -81,3 +81,22 @@ sns.jointplot(x='bill_length_mm', y='bill_depth_mm', data=df,
               kind='hex', color='purple', height=8)
 plt.show()
 plt.close()
+
+#--------------------------------------------------------------BOX PLOT SENTAX---------------------------------------------------------------------------
+sns.boxplot(x='species', y='body_mass_g', data=df, hue='island')
+plt.show()
+
+#--------------------------------------------------------------VIOLIN PLOT SENTAX---------------------------------------------------------------------------
+sns.violinplot(x='species', y='flipper_length_mm', data=df, hue='island', split=True, palette='Pastel1')
+plt.show()
+
+#--------------------------------------------------------------PAIR PLOT SENTAX---------------------------------------------------------------------------
+sns.pairplot(df, hue='species', palette='Set2', markers=["o","s","D"])
+plt.show()
+#--------------------------------------------------------------PAIR GRID SENTAX---------------------------------------------------------------------------
+g = sns.PairGrid(df, hue='species', palette='Set1')
+g.map_upper(sns.scatterplot) # Upper triangle
+g.map_lower(sns.kdeplot)     # Lower triangle
+g.map_diag(sns.histplot)     # Diagonal
+g.add_legend()
+plt.show()
