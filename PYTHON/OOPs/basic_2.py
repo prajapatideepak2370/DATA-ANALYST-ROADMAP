@@ -1,6 +1,6 @@
 class student:
-    def __init__(self, name, marks):
-        self.name = name
+    def __init__(self, name, marks): #The __init__() method is used to assign values to object properties, or to perform operations that are necessary when the object is being created.
+        self.name = name  #The self parameter is a reference to the current instance of the class.
         self.marks = marks
 
     def get_avg(self):

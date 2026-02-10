@@ -17,3 +17,14 @@ class car:
 car1 = car()
 print(car1.color)
 print(car1.brand)
+
+class marks:
+    maths = 34
+    science = 45
+    sst = 47
+    engish = 46
+
+m1 = marks()
+print(m1.science)
+
+del m1  #-->Delete object
