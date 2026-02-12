@@ -1,0 +1,13 @@
+2026-02-11 19:42:30,961 - DEBUG : debug: addition of the numbers is: 8
+2026-02-11 19:42:30,961 - INFO : info: addition of the numbers is: 8
+2026-02-11 19:42:30,961 - ERROR : error: addition of the numbers is: 8
+2026-02-11 19:42:30,961 - CRITICAL : critical: addition of the numbers is: 8
+2026-02-11 19:42:30,961 - WARNING : warning: addition of the numbers is: 8
+2026-02-11 19:42:30,961 - WARNING : The multiplication of the number is: 15
+
+02/11/2026 07:45:32 PM - DEBUG : debug: addition of the numbers is: 8
+02/11/2026 07:45:32 PM - INFO : info: addition of the numbers is: 8
+02/11/2026 07:45:32 PM - ERROR : error: addition of the numbers is: 8
+02/11/2026 07:45:32 PM - CRITICAL : critical: addition of the numbers is: 8
+02/11/2026 07:45:32 PM - WARNING : warning: addition of the numbers is: 8
+02/11/2026 07:45:32 PM - WARNING : The multiplication of the number is: 15

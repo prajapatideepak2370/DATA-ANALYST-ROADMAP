@@ -15,4 +15,4 @@ class student:
 s1 = student("Deepak", 78)
 s2 = student("Sneha", 99)
 print(s1.name, s1.marks)
-print(s2.name, s2.marks)
+print(s2.name, s2.marks) 

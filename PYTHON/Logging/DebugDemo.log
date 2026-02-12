@@ -1,0 +1,6 @@
+DEBUG:root:debug: addition of the numbers is: 8
+INFO:root:info: addition of the numbers is: 8
+ERROR:root:error: addition of the numbers is: 8
+CRITICAL:root:critical: addition of the numbers is: 8
+WARNING:root:warning: addition of the numbers is: 8
+WARNING:root:The multiplication of the number is: 15
